@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+}
+
+.top-bar {
+    height: 30px;
+    background-color: #b53229;
+}
+
+.wh-web {
+    width: 1140px;
+    height: 100%;
+}
+
+.contact i {
+    padding: 0 3px;
+}
+
+.header {
+    height: 90px;
+    background-color: #f1b842;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.input-search {
+    width: 80%;
+    padding-left: 10%;
+}
+
+.button-search {
+    background-color: #b53229;
+    border: 1px solid #b53229;
+}
+
+.address {
+    padding-right: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.91);
+}
+
+.noti i {
+    font-size: 20px;
+}
+
+.noti div {
+    width: 15px;
+    height: 15px;
+    background-color: #b53229;
+    font-size: px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 50%;
+}
+
+.nav-bar {
+    height: 50px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.item {
+    color: #b53229;
+    font-size: 15px;
+}
+
+.button-dropdown {
+    background-color: transparent;
+    color: #b53229;
+    border: none;
+    font-size: 15px;
+}

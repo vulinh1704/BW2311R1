@@ -1,0 +1,19 @@
+.content {
+    height: 250px;
+}
+
+.item {
+    height: 100%;
+    padding: 10px 10px;
+}
+
+.image {
+    background-color: aqua;
+    height: 90%;
+}
+
+.title {
+    background-color: bisque;
+    height: 10%;
+}
+
