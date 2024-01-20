@@ -1,0 +1,54 @@
+.header {
+  height: 200px;
+  padding: 0 100px;
+  display: flex;
+}
+.header .item {
+  background-color: orange;
+  width: 20%;
+  height: 100%;
+}
+.header .item button {
+  background-color: red;
+  width: 70px;
+  height: 50px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.header .item a {
+  color: black;
+}
+.header .item .item-inner {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+}
+
+.footer, .content, .header {
+  background-color: #e840b0;
+}
+
+.a button {
+  background-color: pink;
+  width: 70px;
+  height: 50px;
+  color: red;
+}
+
+.content {
+  margin: 5px 0px;
+  height: 500px;
+  padding: 0 100px;
+}
+
+.footer {
+  height: 200px;
+  padding: 0 100px;
+}
+
+.a {
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}/*# sourceMappingURL=index.css.map */

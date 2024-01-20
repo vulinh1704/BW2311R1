@@ -1,0 +1,34 @@
+@import "variable";
+@import "mixin";
+@import "header";
+
+%my-div {
+    background-color: $main-color;
+}
+.b {
+
+}
+
+.a button {
+    @include my-button(pink, red);
+}
+
+.content {
+    @extend %my-div;
+    @extend .b;
+    margin: 5px 0px;
+    height: 500px;
+    padding: $pad-web;
+}
+
+.footer {
+    @extend %my-div;
+    height: 200px;
+    padding: $pad-web;
+}
+
+.a {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+}

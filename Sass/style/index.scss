@@ -1,0 +1,15 @@
+@import 'variable';
+@import 'header';
+
+@mixin buttonStyle {
+    background-color: $button-color;
+    color: white;
+}
+
+.header button{
+    @include buttonStyle();
+}
+
+.content button {
+    @include buttonStyle();
+}

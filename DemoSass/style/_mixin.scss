@@ -1,0 +1,6 @@
+@mixin my-button($bg, $cl) {
+    background-color: $bg;
+    width: 70px;
+    height: 50px;
+    color: $cl;
+}
