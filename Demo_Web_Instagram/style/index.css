@@ -1,0 +1,142 @@
+.side-bar {
+  width: 15%;
+  height: 100vh;
+  padding: 30px 15px;
+  border-right: 1px solid rgb(187, 187, 195);
+  position: fixed;
+}
+.side-bar .side-bar-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.side-bar .side-bar-inner .top {
+  height: 55px;
+  width: 100%;
+}
+.side-bar .side-bar-inner .top img {
+  width: 115px;
+  height: 30px;
+}
+.side-bar .side-bar-inner .mid {
+  flex-grow: 1;
+}
+.side-bar .side-bar-inner .mid .item {
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  transition: background-color 1s;
+}
+.side-bar .side-bar-inner .mid .item .icon {
+  height: 24px;
+  width: 24px;
+}
+.side-bar .side-bar-inner .mid .item .icon img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+}
+.side-bar .side-bar-inner .mid .item .title {
+  padding-left: 15px;
+}
+.side-bar .side-bar-inner .mid .item:hover {
+  background-color: rgb(234, 234, 231);
+}
+.side-bar .side-bar-inner .mid .item:hover .icon img {
+  transform: scale(1.2);
+}
+.side-bar .side-bar-inner .mid .item:last-child .icon img {
+  border-radius: 50%;
+}
+.side-bar .side-bar-inner .bottom {
+  height: 100px;
+  width: 100%;
+}
+.side-bar .side-bar-inner .bottom .item {
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  padding: 0 10px;
+  height: 50px;
+  width: 100%;
+  transition: background-color 1s;
+}
+.side-bar .side-bar-inner .bottom .item .icon {
+  height: 24px;
+  width: 24px;
+}
+.side-bar .side-bar-inner .bottom .item .icon img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+}
+.side-bar .side-bar-inner .bottom .item .title {
+  padding-left: 15px;
+}
+.side-bar .side-bar-inner .bottom .item:hover {
+  background-color: rgb(234, 234, 231);
+}
+.side-bar .side-bar-inner .bottom .item:hover .icon img {
+  transform: scale(1.2);
+}
+
+.main {
+  width: 85%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+.main .profile {
+  width: 80%;
+  height: 2000px;
+  background-color: pink;
+}
+.main .profile .infor {
+  width: 100%;
+  height: 230px;
+  background-color: greenyellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .profile .infor .avatar {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+.main .profile .infor .avatar .avartar-inner {
+  width: 160px;
+  height: 160px;
+}
+.main .profile .infor .avatar .avartar-inner img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.main .profile .infor .contact {
+  width: 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}/*# sourceMappingURL=index.css.map */
